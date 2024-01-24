@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  li:empty{
+    display: none;
+  }
+  ul>li{
+  list-style: none;
+  }
+  ol li {
+    display: inline-flex;
+    
+    justify-content: flex-end;
+    padding-left: 0;
+  }
+  ol{
+    display: flex;
+    flex-direction: column;
+  }
+  ul{
+    padding-left: .25em;
+  }
+  ul, ol{
+    margin: 0;
+  }
+  
+  .Ingredients{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+  }
