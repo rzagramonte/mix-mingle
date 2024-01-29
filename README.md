@@ -21,11 +21,10 @@ Interval-based functions are used to automatically advance through the slideshow
 The application also includes commented-out code for implementing previous and next buttons, allowing manual navigation through the cocktail slideshow.
 
 ## Optimizations
-*(optional)*
 
-Implementing a more user-friendly navigation system, including next and previous buttons for manual control.
-Enhancing the visual design for a more appealing and engaging user experience.
-Adding error handling for cases where the API request fails or returns no data.
+1. Implementing a more user-friendly navigation system, including next and previous buttons for manual control.
+2. Enhancing the visual design for a more appealing and engaging user experience.
+3. Adding error handling for cases where the API request fails or returns no data.
 
 ## Lessons Learned:
 
